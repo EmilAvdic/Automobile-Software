@@ -1,0 +1,101 @@
+header{
+    padding: 15px;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
+nav{
+    text-align: center;
+    background: rgb(197,197,198);
+    background: linear-gradient(0deg, rgba(197,197,198,1) 0%, rgba(105,104,112,1) 87%);
+}
+
+header * {
+    display: grid;
+}
+
+table{
+    margin: 0 auto;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    width: 40%;
+    border: 2px solid white;
+}
+
+th{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-size: larger;
+}
+
+td{
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.grid-box{
+    margin: 25px;
+    grid-template-areas: 
+    "firstBox secondBox thirdBox fourthBox";
+}
+
+@media screen and (max-width: 1300px) {
+    header{
+        padding-right: 110px;
+        padding-left: 110px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    header{
+        padding-right: 25%;
+        padding-left: 25%;
+    }
+
+    .grid-box{
+        grid-template-rows: 50px 50px 50px;
+        grid-template-areas: 
+        "firstBox"
+        "secondBox"
+        "thirdBox"
+        "fourthBox";
+    }
+}
+
+.box-1{
+    grid-area: firstBox;
+}
+
+.box-2{
+    grid-area: secondBox;
+}
+
+.box-3{
+    grid-area: thirdBox;
+} 
+
+.box-4{
+    grid-area: fourthBox;
+}
+
+a {
+    color: darkblue;
+    font-size: x-large;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.75s ease-in-out;
+}
+
+a:hover{
+    color: lightgrey;
+}
+
+.usedSite{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}

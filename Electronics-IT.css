@@ -1,5 +1,5 @@
 body{
-    background-color: darkblue ;
+    background-color: grey ;
     color: lightblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }   
@@ -57,7 +57,15 @@ p{
     position: fixed;
   }
 
-  .topnav a:hover {
+.topnav a:hover {
     color: blue;
     border-top: 100px;
-  }
+}
+
+.b{
+    color: lightblue;
+    font-size: x-large;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.75s ease-in-out;
+}

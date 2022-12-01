@@ -2,7 +2,7 @@ body{
     background-color: lightblue ;
     color: darkblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}   
+}
 
 h2{
     color: darkblue;
@@ -27,7 +27,7 @@ p{
     height: 325px; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-	border: 1px solid darkblue;
+    border: 1px solid darkblue;
     object-fit: cover; 
 }
 
@@ -36,7 +36,7 @@ p{
     height: 325px; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-	border: 1px solid darkblue;
+    border: 1px solid darkblue;
     object-fit: cover; 
 }
 .topnav {
