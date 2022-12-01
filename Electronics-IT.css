@@ -1,22 +1,22 @@
 body{
-    background-color: grey ;
-    color: lightblue;
+    background-color: black ;
+    color: grey;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}   
+}
 
 h2{
-    color: lightblue;
+    color: grey;
     font-family: 'Times New Roman', Times, serif;
 }
 
 h1{
-    color: lightblue;
+    color: grey;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 p{
-    color: lightblue;
+    color: grey;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: lighter;
     font-size: 120%;
@@ -27,7 +27,7 @@ p{
     height: 325px; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-	border: 1px solid lightblue;
+    border: 1px solid darkblue;
     object-fit: cover; 
 }
 
@@ -36,36 +36,6 @@ p{
     height: 325px; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-	border: 1px solid lightblue;
+    border: 1px solid grey;
     object-fit: cover; 
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: blue;
-}
-
-  .topnav a {
-    float:right;
-    color: black;
-    text-align: center;
-    padding: 60px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: sans-serif;
-    font-weight: 800;
-    position: fixed;
-  }
-
-.topnav a:hover {
-    color: blue;
-    border-top: 100px;
-}
-
-.b{
-    color: lightblue;
-    font-size: x-large;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.75s ease-in-out;
 }
