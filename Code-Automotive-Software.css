@@ -1,5 +1,5 @@
 body{
-    background-color: gray ;
+    background-color: grey;
     color: lightgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -21,22 +21,4 @@ p{
     font-weight: lighter;
     font-size: 120%;
     position: center;
-}
-
-.image{
-    width: 555px;
-    height: 325px; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    border: 1px solid darkblue;
-    object-fit: cover; 
-}
-
-.SecondImage{
-    width: 555px;
-    height: 325px; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    border: 1px solid grey;
-    object-fit: cover; 
 }
