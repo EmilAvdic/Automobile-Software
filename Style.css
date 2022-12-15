@@ -30,7 +30,6 @@ p{
     height: 325px; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-    border: 1px solid darkblue;
     object-fit: cover; 
 }
 

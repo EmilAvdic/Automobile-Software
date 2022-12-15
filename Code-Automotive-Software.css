@@ -24,3 +24,11 @@ p{
     font-size: 120%;
     position: center;
 }
+
+.image{
+    width: 555px;
+    height: 325px; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover; 
+}
