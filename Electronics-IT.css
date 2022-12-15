@@ -2,6 +2,8 @@ body{
     background-color: gray ;
     color: lightgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 h2{
